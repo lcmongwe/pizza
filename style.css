@@ -31,3 +31,27 @@
   margin-right: 40%;
   margin-top: 10%;
 }
+
+.recipe {
+  height: auto;
+  width: 100%;
+}
+
+.titles h1 {
+  text-align: center;
+}
+
+.footer {
+  background: url(/images/background2.jpg);
+  width: 100%;
+  height: 500px;
+}
+
+.imgtop {
+  height: 300px;
+  width: 300px;
+}
+
+.col-md-3 {
+  padding: 100px;
+}
