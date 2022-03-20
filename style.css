@@ -41,26 +41,29 @@
   text-align: center;
 }
 
-.footer {
-  background: url(/images/background2.jpg);
-  width: 100%;
-  height: auto;
-}
-
 .imgtop {
   height: 300px;
   width: 300px;
 }
 
 .col-md-3 {
-  padding: 1px;
-  text-align: left;
+  padding: 100px;
 }
 
-.button button {
+button {
   width: 150px;
   height: 40px;
   color: white;
   background: red;
   border-radius: 5px;
+}
+
+.footer {
+  background: url(/images/background2.jpg);
+  width: 100%;
+  height: 200px;
+}
+
+.footer p {
+  text-align: center;
 }
