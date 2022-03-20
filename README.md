@@ -20,3 +20,12 @@ Author: Lucy Mongwe
 - git clone https://github.com/lcmongwe/pizza.git
 - cd dope-pizza
 - code . or atom . depending on your text editor
+
+### :computer: TECHNOLOGIES USED
+
+- HTML5
+- CSS
+- JavaScript
+- MARKDOWN
+- JQUERY
+- BOOTSTRAP
