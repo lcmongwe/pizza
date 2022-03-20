@@ -58,6 +58,10 @@ button {
   border-radius: 5px;
 }
 
+button:hover {
+  background: blue;
+}
+
 .end {
   background: url(/images/background2.jpg);
   width: 100%;
