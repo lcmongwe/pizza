@@ -90,39 +90,39 @@
           <option class="text" value="" default selected>
             CHOOSE YOUR PIZZA SIZE
           </option>
-          <option class="text" value="mega">mega</option>
-          <option class="text" value="medium">medium</option>
-          <option class="text" value="small">small</option>
+          <option class="text" id="mega" value="mega">mega</option>
+          <option class="text" id="medium" value="medium">medium</option>
+          <option class="text" id="small" value="small">small</option>
         </select>
-        <br />
+        <br /><br>
         <select id="crust" required>
           <option class="text" value="" default selected>
             CHOOSE YOUR CRUST
           </option>
-          <option class="text" value="double">double</option>
-          <option class="text" value="single">single</option>
-          <option class="text" value="thin">thin</option>
+          <option class="text" id="double" value="double">double</option>
+          <option class="text" id="single" value="single">single</option>
+          <option class="text" id="thin" value="thin">thin</option>
         </select>
         <br />
         <p></p>
         toppings:(check all your favorite toppings!)
         <p></p>
-        <input type="checkbox" name="bellpeppers" /> bellpeppers
+        <input type="checkbox" id="bellpeppers" name="bellpeppers" /> bellpeppers
         <br />
         <p></p>
-        <input type="checkbox" name="brocoli" /> brocoli
+        <input type="checkbox" id="brocoli" name="brocoli" /> brocoli
         <br />
         <p></p>
-        <input type="checkbox" name="mushroom" /> mushroom
+        <input type="checkbox" id="mushroom" name="mushroom" /> mushroom
         <br />
         <p></p>
-        <input type="checkbox" name="pineapple" /> pineapple
+        <input type="checkbox" id="pineapple" name="pineapple" /> pineapple
         <br />
         <p></p>
-        no. of pizzas <input type="text" name="no. of pizzas" />
+        no. of pizzas <input id="number" type="text" name="no. of pizzas" />
         <br />
         <p></p>
-        delivery location <input type="text" name="delivery location" />
+        delivery location <input type="text" id="delivery" name="delivery location" />
         <br />
         <br />
         <button type="button" id="place" onclick="akhanNames()">
