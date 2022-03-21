@@ -83,6 +83,61 @@
           </div>
         </div>
       </div>
+
+       <div class="cont">
+      <form id="form_data">
+        <select id="size" required>
+          <option class="text" value="" default selected>
+            CHOOSE YOUR PIZZA SIZE
+          </option>
+          <option class="text" value="mega">mega</option>
+          <option class="text" value="medium">medium</option>
+          <option class="text" value="small">small</option>
+        </select>
+        <br />
+        <select id="crust" required>
+          <option class="text" value="" default selected>
+            CHOOSE YOUR CRUST
+          </option>
+          <option class="text" value="double">double</option>
+          <option class="text" value="single">single</option>
+          <option class="text" value="thin">thin</option>
+        </select>
+        <br />
+        <p></p>
+        toppings:(check all your favorite toppings!)
+        <p></p>
+        <input type="checkbox" name="bellpeppers" /> bellpeppers
+        <br />
+        <p></p>
+        <input type="checkbox" name="brocoli" /> brocoli
+        <br />
+        <p></p>
+        <input type="checkbox" name="mushroom" /> mushroom
+        <br />
+        <p></p>
+        <input type="checkbox" name="pineapple" /> pineapple
+        <br />
+        <p></p>
+        no. of pizzas <input type="text" name="no. of pizzas" />
+        <br />
+        <p></p>
+        delivery location <input type="text" name="delivery location" />
+        <br />
+        <br />
+        <button type="button" id="place" onclick="akhanNames()">
+          PLACE ORDER
+        </button>
+        <br />
+        <button type="button" id="cancel" onclick="akhanNames()">CANCEL</button>
+
+        <br />
+        <div class="result">
+          <p id="message"></p>
+        </div>
+
+        <br />
+      </form>
     </div>
 
     <div class="end">
