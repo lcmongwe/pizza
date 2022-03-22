@@ -86,6 +86,18 @@
 
        <div class="cont">
       <form id="form_data">
+
+
+        <select id="size" required>
+          <option class="text" value="" default selected>
+            CHOOSE YOUR FLAVOR
+          </option>
+          <option class="text" id="beef" value="beef">BEEF BBQ</option>
+          <option class="text" id="chicken" value="chicken">CHICKEN TIKKA</option>
+          <option class="text" id="hawaian" value="hawaian">HAWAIAN</option>
+           <option class="text" id="vegy" value="veggy">VEGETERIAN</option>
+        </select>
+        <br /><br>
         <select id="size" required>
           <option class="text" value="" default selected>
             CHOOSE YOUR PIZZA SIZE
@@ -128,7 +140,7 @@
         <button type="button" id="place" onclick="akhanNames()">
           PLACE ORDER
         </button>
-        <br />
+        <br /><br>
         <button type="button" id="cancel" onclick="akhanNames()">CANCEL</button>
 
         <br />
